@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
-import {HomePage} from './components/homepage.component';
+import HomePage from './pages/homepage/homepage.component';
 
-function App() {
-  
-  return (
-    <div>
-      <HomePage />
-      <div>sklnadlka</div>
-    </div>
-  );
+
+class App extends React.Component {
+	constructor() {
+		super();
+		
+	}
+
+	render() {
+		return (
+			<HomePage />
+		);
+	}
+
 }
 
 export default App;
