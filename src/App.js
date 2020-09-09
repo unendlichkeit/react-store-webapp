@@ -51,9 +51,9 @@ class App extends React.Component {
 		// console.log(this.state.currentUser);
 		return (
 			<div>
-				<Header/>
+				
 				<HashRouter basename='/'>
-
+					<Header/>
 					<Route exact path='/' component={ HomePage } />
 					
 					<Route exact path='/shop' component={ ShopPage } />
