@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e86cdc8.chunk.css",
-    "main.js": "/static/js/main.8e43c23d.chunk.js",
-    "main.js.map": "/static/js/main.8e43c23d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.656d09a4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.656d09a4.js.map",
-    "static/js/2.795c8642.chunk.js": "/static/js/2.795c8642.chunk.js",
-    "static/js/2.795c8642.chunk.js.map": "/static/js/2.795c8642.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3df707294d44a0de25880e9f4697cd9a.js": "/precache-manifest.3df707294d44a0de25880e9f4697cd9a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2e86cdc8.chunk.css.map": "/static/css/main.2e86cdc8.chunk.css.map",
-    "static/js/2.795c8642.chunk.js.LICENSE.txt": "/static/js/2.795c8642.chunk.js.LICENSE.txt",
-    "static/media/crown-logo.19ef7b17.svg": "/static/media/crown-logo.19ef7b17.svg",
-    "static/media/shopping-bag.30f07071.svg": "/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/react-store-webapp/static/css/main.2e86cdc8.chunk.css",
+    "main.js": "/react-store-webapp/static/js/main.8e43c23d.chunk.js",
+    "main.js.map": "/react-store-webapp/static/js/main.8e43c23d.chunk.js.map",
+    "runtime-main.js": "/react-store-webapp/static/js/runtime-main.72b6f146.js",
+    "runtime-main.js.map": "/react-store-webapp/static/js/runtime-main.72b6f146.js.map",
+    "static/js/2.34596eb5.chunk.js": "/react-store-webapp/static/js/2.34596eb5.chunk.js",
+    "static/js/2.34596eb5.chunk.js.map": "/react-store-webapp/static/js/2.34596eb5.chunk.js.map",
+    "index.html": "/react-store-webapp/index.html",
+    "precache-manifest.0c363ef4d2ac7d724364477f8c378971.js": "/react-store-webapp/precache-manifest.0c363ef4d2ac7d724364477f8c378971.js",
+    "service-worker.js": "/react-store-webapp/service-worker.js",
+    "static/css/main.2e86cdc8.chunk.css.map": "/react-store-webapp/static/css/main.2e86cdc8.chunk.css.map",
+    "static/js/2.34596eb5.chunk.js.LICENSE.txt": "/react-store-webapp/static/js/2.34596eb5.chunk.js.LICENSE.txt",
+    "static/media/crown-logo.19ef7b17.svg": "/react-store-webapp/static/media/crown-logo.19ef7b17.svg",
+    "static/media/shopping-bag.30f07071.svg": "/react-store-webapp/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.656d09a4.js",
-    "static/js/2.795c8642.chunk.js",
+    "static/js/runtime-main.72b6f146.js",
+    "static/js/2.34596eb5.chunk.js",
     "static/css/main.2e86cdc8.chunk.css",
     "static/js/main.8e43c23d.chunk.js"
   ]
