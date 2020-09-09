@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect, HashRouter } from 'react-router-dom';
 
 import './App.css';
 
@@ -52,12 +52,13 @@ class App extends React.Component {
 		return (
 			<div>
 				<Header/>
-				<Switch>
+				<HashRouter basename='/'>
+
 					<Route exact path='/' component={ HomePage } />
-					<Route exact path='/react-store-webapp' component={ HomePage } />
+					
 					<Route exact path='/shop' component={ ShopPage } />
 					<Route exact path='/signin' render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndUpPage />) } />
-				</Switch>
+				</HashRouter>
 			</div>
 		);
 	}
