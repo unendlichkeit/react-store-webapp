@@ -49,13 +49,13 @@ class App extends React.Component {
 
 	render() {
 		// console.log(this.state.currentUser);
+		//<HashRouter basename='/'>
 		return (
 			<div>
+				<Header/>
 				
-				<HashRouter basename='/'>
-					<Header/>
+				<HashRouter basename="/">
 					<Route exact path='/' component={ HomePage } />
-					
 					<Route exact path='/shop' component={ ShopPage } />
 					<Route exact path='/signin' render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndUpPage />) } />
 				</HashRouter>
